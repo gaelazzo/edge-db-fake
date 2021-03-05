@@ -5,4 +5,8 @@
     <RootNamespace>edge_db_fake</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\lib</OutputPath>
+  </PropertyGroup>
+
 </Project>
